@@ -1,0 +1,108 @@
+{
+  "version": "d2b31e47",
+  "entry": {
+    "module": "/build/entry.client-N64QUHDV.js",
+    "imports": [
+      "/build/_shared/chunk-GGVRJTIG.js",
+      "/build/_shared/chunk-STFD5DNB.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "module": "/build/root-LZQ36MAV.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": true,
+      "hasErrorBoundary": true
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "module": "/build/routes/index-WQLVC6YS.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/jokes": {
+      "id": "routes/jokes",
+      "parentId": "root",
+      "path": "jokes",
+      "module": "/build/routes/jokes-MT526Y6Q.js",
+      "imports": [
+        "/build/_shared/chunk-XRKS6CZN.js",
+        "/build/_shared/chunk-6WH4NYDA.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/jokes/$jokeId": {
+      "id": "routes/jokes/$jokeId",
+      "parentId": "routes/jokes",
+      "path": ":jokeId",
+      "module": "/build/routes/jokes/$jokeId-4BQLQJQB.js",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": true
+    },
+    "routes/jokes/index": {
+      "id": "routes/jokes/index",
+      "parentId": "routes/jokes",
+      "index": true,
+      "module": "/build/routes/jokes/index-ZOQD3OAY.js",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": true
+    },
+    "routes/jokes/new": {
+      "id": "routes/jokes/new",
+      "parentId": "routes/jokes",
+      "path": "new",
+      "module": "/build/routes/jokes/new-QQIO2OG5.js",
+      "imports": [
+        "/build/_shared/chunk-SOWUDR3M.js"
+      ],
+      "hasAction": true,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": true
+    },
+    "routes/login": {
+      "id": "routes/login",
+      "parentId": "root",
+      "path": "login",
+      "module": "/build/routes/login-DNRIEMKX.js",
+      "imports": [
+        "/build/_shared/chunk-SOWUDR3M.js",
+        "/build/_shared/chunk-XRKS6CZN.js",
+        "/build/_shared/chunk-6WH4NYDA.js"
+      ],
+      "hasAction": true,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/logout": {
+      "id": "routes/logout",
+      "parentId": "root",
+      "path": "logout",
+      "module": "/build/routes/logout-K2SKPP6N.js",
+      "imports": [
+        "/build/_shared/chunk-SOWUDR3M.js",
+        "/build/_shared/chunk-XRKS6CZN.js"
+      ],
+      "hasAction": true,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    }
+  },
+  "url": "/build/manifest-D2B31E47.js"
+}
