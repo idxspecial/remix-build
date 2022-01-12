@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Projects\\remix-jokes\\app\\routes\\jokes\\index.tsx?browser"],
+  "sourcesContent": ["export * from \"C:\\\\Projects\\\\remix-jokes\\\\app\\\\routes\\\\jokes\\\\index.tsx\";"],
+  "mappings": ";;;;;AAAA;",
+  "names": []
+}

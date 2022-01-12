@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Projects\\remix-jokes\\app\\routes\\jokes\\new.tsx?browser", "../../../../app/routes/jokes/new.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Projects\\\\remix-jokes\\\\app\\\\routes\\\\jokes\\\\new.tsx\";", "export default function NewJokeRoute() {\r\n    return (\r\n      <div>\r\n        <p>Add your own hilarious joke</p>\r\n        <form method=\"post\">\r\n          <div>\r\n            <label>\r\n              Name: <input type=\"text\" name=\"name\" />\r\n            </label>\r\n          </div>\r\n          <div>\r\n            <label>\r\n              Content: <textarea name=\"content\" />\r\n            </label>\r\n          </div>\r\n          <div>\r\n            <button type=\"submit\" className=\"button\">\r\n              Add\r\n            </button>\r\n          </div>\r\n        </form>\r\n      </div>\r\n    );\r\n  }"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAe,wBAAwB;AACnC,SACE,oCAAC,OAAD,MACE,oCAAC,KAAD,MAAG,gCACH,oCAAC,QAAD;AAAA,IAAM,QAAO;AAAA,KACX,oCAAC,OAAD,MACE,oCAAC,SAAD,MAAO,UACC,oCAAC,SAAD;AAAA,IAAO,MAAK;AAAA,IAAO,MAAK;AAAA,QAGlC,oCAAC,OAAD,MACE,oCAAC,SAAD,MAAO,aACI,oCAAC,YAAD;AAAA,IAAU,MAAK;AAAA,QAG5B,oCAAC,OAAD,MACE,oCAAC,UAAD;AAAA,IAAQ,MAAK;AAAA,IAAS,WAAU;AAAA,KAAS;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Projects\\remix-jokes\\app\\routes\\jokes\\$jokeId.tsx?browser", "../../../../app/routes/jokes/$jokeId.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Projects\\\\remix-jokes\\\\app\\\\routes\\\\jokes\\\\$jokeId.tsx\";", "import type { LoaderFunction } from \"remix\";\r\nimport { Link, useLoaderData } from \"remix\";\r\nimport type { Joke } from \"@prisma/client\";\r\nimport { db } from \"~/utils/db.server\";\r\n\r\ntype LoaderData = { joke: Joke };\r\n\r\nexport const loader: LoaderFunction = async ({\r\n  params\r\n}) => {\r\n  const joke = await db.joke.findUnique({\r\n    where: { id: params.jokeId }\r\n  });\r\n  if (!joke) throw new Error(\"Joke not found\");\r\n  const data: LoaderData = { joke };\r\n  return data;\r\n};\r\n\r\nexport default function JokeRoute() {\r\n  const data = useLoaderData<LoaderData>();\r\n\r\n  return (\r\n    <div>\r\n      <p>Here's your hilarious joke:</p>\r\n      <p>{data.joke.content}</p>\r\n      <Link to=\".\">{data.joke.name} Permalink</Link>\r\n    </div>\r\n  );\r\n}\r\n\r\n//Resident Evil 2\r\n//Dragons Dogma : Dark Arisen\r\n//Castlevania Lords of Shadow Ultimate Edition\r\n//OPUS: Rocket of Whispers"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;;;ACAA;AAGA,gBAAmB;AAeJ,qBAAqB;AAClC,QAAM,OAAO;AAEb,SACE,oCAAC,OAAD,MACE,oCAAC,KAAD,MAAG,gCACH,oCAAC,KAAD,MAAI,KAAK,KAAK,UACd,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAK,KAAK,KAAK,MAAK;AAAA;",
+  "names": []
+}

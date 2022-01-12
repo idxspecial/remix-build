@@ -1,0 +1,1 @@
+import{a as r}from"/build/_shared/chunk-SOWUDR3M.js";import{a as i}from"/build/_shared/chunk-XRKS6CZN.js";import{b as n,f as o}from"/build/_shared/chunk-STFD5DNB.js";o();o();var t=n(i()),m=async({request:e})=>(0,t.logout)(e),u=async()=>(0,r.redirect)("/");export{m as action,u as loader};
